@@ -19,5 +19,3 @@ $pagina_incluir = isset($paginas[$acao]) ? $paginas[$acao] : $paginas['bemvindo'
 include_once($pagina_incluir);
 
 include_once('../includes/footer.php');
-
-http://localhost/AgendaPHP_2024/paginas/home.php?acao=relatorio

@@ -62,10 +62,10 @@
             // Verifica se a variável $foto_user é igual a 'avatar-padrao.png'
             if ($show->foto_contatos == 'avatar-padrao.png') {
               // Exibe a imagem do avatar padrão
-              echo '<img src="../img/avatar_p/' . $show->foto_contatos . '" alt="' . $show->foto_contatos . '" title="' . $show->foto_contatos . '" style="width: 50px; border-radius: 100%;">';
+              echo '<img src="../../img/avatar_p/' . $show->foto_contatos . '" alt="' . $show->foto_contatos . '" title="' . $show->foto_contatos . '" style="width: 50px; border-radius: 100%;">';
           } else {
               // Exibe a imagem do usuário
-              echo '<img src="../img/cont/' . $show->foto_contatos . '" alt="' . $show->foto_contatos . '" title="' . $show->foto_contatos . '" style="width: 50px; border-radius: 100%;">';
+              echo '<img src="../../img/cont/' . $show->foto_contatos . '" alt="' . $show->foto_contatos . '" title="' . $show->foto_contatos . '" style="width: 50px; border-radius: 100%;">';
           }?>
                      </td>
                       <td><?php echo $show->nome_contatos; ?></td>
